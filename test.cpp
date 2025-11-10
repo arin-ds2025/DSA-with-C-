@@ -1,6 +1,14 @@
-#include <iostream>
+#include <iostream> // this line is used to include input-output stream library, means to use cout and cin funtions
 
-using namespace std;
+using namespace std; // this line is used to avoid using std:: before every cout and cin.. std means standard
+
+/*
+if we don't use 'using namespace std;' then we have to write std:: before every cout and cin like this:
+int main(){
+    std::cout << "Hello, World!" << std::endl;
+    // return 0; // it's optional in main function
+}
+*/
 
 int main(){
     cout << "Hello, Chutiya..! ";  // << if I use << endl ,it means end of line and next output will be in new line
