@@ -22,7 +22,16 @@ int main(){
     cout<<"This is my first program in C++ language."<<endl<<"I'm enjoying it very much.";
     cout<<"\n\tThank you.!"<<endl; // \t is used for tab space
     cout<<"Hello PW\nHello CW \n";
-    
+    cout<<endl;
+
+    int x = 10;
+    cout<<"x = "<<x<<endl<<"(x==7) : "<<(x==7)<<endl<<"(x=12) : "<<(x=12)<<endl;
+    /* 
+        here (x==7) is a comparison operator which checks whether x is equal to 7 or not and returns boolean value
+        and (x=12) is an assignment operator which assigns the value 12 to x and returns the assigned value
+    */
+
+
     /*
         this is a multi line comment in C++
     */
