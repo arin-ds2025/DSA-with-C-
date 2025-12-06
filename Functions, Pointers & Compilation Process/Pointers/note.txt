@@ -1,0 +1,6 @@
+1) Byte to bits:
+   i. 1 byte --> 8 bits
+  ii. 1 kilo byte (Kb) --> 1024 bytes
+ iii. 1 Mega Byte (Mb) --> 1024 Kb 
+
+2) a data type can store 2^(sizeof(data_type)*2) or 2^bits_Of_dataType number of digits or characters or something else 
