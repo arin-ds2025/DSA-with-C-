@@ -1,0 +1,41 @@
+Preprocessor directives in C++ are special commands that begin with a hash sign (#) 
+and are processed by the preprocessor before the actual compilation of the source code.
+They are not part of the C++ language itself, but rather instructions to the preprocessor, 
+which is a separate tool or component of the compiler. 
+The preprocessor's role is to modify the source code based on these directives,
+producing an intermediate file that the compiler then uses to generate machine code.
+
+IN terminal..(VS code terminal or Git Bash). (for Windows,, cause C++ is a platform dependent language):
+
+we can know the directory files list by  ls  commands
+we can swtich in any existant folder in a folder by cd commands
+
+we can create compiler by g++ file_name.cpp .. it will create a default execusion file named a.execusion
+we can set the executable_file name using -o flag..
+example: g++ file_name -o executable file name
+
+then we we can run the code by ./executable_file_name.execusion
+we can create and run the compiler in one line using && 
+example: g++ file_name.cpp -o executable_file_name && ./executable_file_name.execusion
+
+we can change the compile version while we create a compailer for that file
+example: g++ file_name.cpp -o executable_file_name --std=c++14
+
+we can see the header or preprocessor directive codes in terminal, using -E flag
+example: g++ -E file_name.cpp
+
+we can store the heard or preprocessor directive's code to a new file, using > operator  (it's called preprocessor extension)
+example: g++ -E file_name.cpp > new_file_name.cpp 
+
+we can see the assembly language of our code by using -S flag
+example: g++ -S file_name.cpp   . it'll create a new file namede file_name.S
+
+we can control the optimization the assembly language in 3 levels, these are:
+-O1 (lowest optimization), -O2(medium optimization), -O3(higest optimization) .. there are captital O , not 0
+example: g++ -S -O2 file_name.cpp
+
+we can direct optimizely create our compile using that levels:
+example: g++ -O3 file_name.cpp
+
+we can see the file size by ls -lh
+those files, who has small size , those are more optimized
