@@ -14,9 +14,9 @@ we can create compiler by g++ file_name.cpp .. it will create a default execusio
 we can set the executable_file name using -o flag..
 example: g++ file_name -o executable file name
 
-then we we can run the code by ./executable_file_name.execusion
+then we we can run the code by ./executable_file_name.exe
 we can create and run the compiler in one line using && 
-example: g++ file_name.cpp -o executable_file_name && ./executable_file_name.execusion
+example: g++ file_name.cpp -o executable_file_name && ./executable_file_name.exe
 
 we can change the compile version while we create a compailer for that file
 example: g++ file_name.cpp -o executable_file_name --std=c++14
