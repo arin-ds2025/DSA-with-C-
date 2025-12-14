@@ -12,7 +12,7 @@ void displayArr(int a[], int x){
 
 void isPalindrome(int n[], int s){ 
     bool flag = 1;
-    for(short i = 0; i<(s/2 + 1); i++){
+    for(short i = 0; i<s; i++){
         if(n[i]!=n[s-1-i]) { flag = 0; break;}
     }
     if(flag==1) cout<<"Yes, your given array is a palindrome."<<endl<<endl;
