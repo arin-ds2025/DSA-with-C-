@@ -41,7 +41,6 @@ void rotateMatrix(vector<vector<int>>& v){
         }
     }
     
-
     cout<<"After rotation,the Vector is: "<<endl;
     for(short i = 0; i<m; i++){
         for(short j = 0; j<m; j++){
